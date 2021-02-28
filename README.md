@@ -18,11 +18,21 @@ dependencies: [
 ],
 ```
 
+### CocoaPods
+
+Add the following to your `Podfile`:
+
+```ruby
+pod 'Base-16', '~> 1.0'
+```
+
 ## Usage
 
 Base16 adds functions to `Data` that mirror `Foundation`'s functions for working with Base64 encoded data:
 
 ```swift
+import Base16
+
 let data = Data([182, 239, 215, 173, 251, 168, 76, 252,
                  140, 7, 39, 163, 56, 255, 171, 35,
                  121, 205, 26, 252, 53, 166, 159, 67,
